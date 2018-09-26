@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
 
             if (Array.isArray(qTxt)) {
                 res.send(qTxt[0].quote + ' - ' + qTxt[0].author +
-                '### Greetings from Lars Petter and Kristian')
+                '#### Greetings from Lars Petter and Kristian')
             } else {
                 res.send(body)
             }
