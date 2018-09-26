@@ -1,5 +1,5 @@
 {
-  "name": "beeropener",
+  "name": "radixDeploy",
   "version": "1.0.0",
   "description": "opening bottles",
   "main": "index.js",
@@ -8,5 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  }
 }
