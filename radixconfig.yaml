@@ -1,7 +1,7 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: reedandhauge
+  name: reeadandhauge
 spec:
   environments:
     - name: development
