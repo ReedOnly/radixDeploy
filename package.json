@@ -1,16 +1,20 @@
 {
-  "name": "radixDeploy",
-  "version": "1.0.0",
-  "description": "opening bottles",
+  "name": "radixdeploy",
+  "version": "0.0.1",
+  "description": "Radix App for EDC 2018",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js",
+    "test": "mocha"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   }
 }
